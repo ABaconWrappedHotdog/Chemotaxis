@@ -44,14 +44,14 @@ class Mover{
       myY = 10; 
     }
     /*else*/ if (mouseX > myX) {
-      myX = myX - (int)(Math.random()*5);
+      myX = myX - (int)(Math.random()*7);
     } else {
-      myX = myX + (int)(Math.random()*5);
+      myX = myX + (int)(Math.random()*7);
     }
     if (mouseY > myY) {
-      myY = myY - (int)(Math.random()*5);
+      myY = myY - (int)(Math.random()*7);
     } else {
-      myY = myY + (int)(Math.random()*5);
+      myY = myY + (int)(Math.random()*7);
     }
     
     
